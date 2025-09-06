@@ -1,0 +1,44 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,amssymb,amsfonts,graphicx,hyperref}
+\usepackage{geometry}
+\geometry{margin=1in}
+\title{The Berry Curvature Origin of the Golden Ratio in a Projected $E_8$ Vacuum}
+\author{HIFT Collaboration}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We present a geometric and topological mechanism by which the golden ratio (and in particular a $\phi^2$ scale) may appear as a fundamental coupling constant of low-energy effective physics when a periodic, highly symmetric lattice in eight dimensions (the $E_8$ root lattice) is projected to three physical dimensions via a two-stage cut-and-project scheme.
+\end{abstract}
+
+\section{Introduction}
+The exceptional $E_8$ lattice is a unique, maximally symmetric, and optimally packed structure in eight Euclidean dimensions. Projections of $E_8$ generate quasicrystalline geometries in lower dimensions.
+
+\section{Projection, kernels and the Hilbert bundle}
+\subsection{Two-pass projection}
+We implement the projection as a composition:
+\begin{equation}
+\Pi = \pi_3 \circ F_{H4} \circ P_{E8}
+\end{equation}
+
+\section{Interface physics and fractionalization}
+When domains with different integrated curvature indices meet, standard bulk-boundary correspondences predict interface modes.
+
+\section{Algorithmic blueprint: the HIFT-Engine}
+\textbf{High-level plan:}
+\begin{enumerate}
+\item Generate an $E_8$ point cloud truncated at radius $R$.
+\item Choose projection matrices.
+\item Cut-and-project: compute physical and perpendicular components.
+\item Build kernel Hilbert bases.
+\item Compute Berry connection and curvature.
+\item Identify domains and locate seams.
+\item Detect localized modes and measure fractionalization.
+\end{enumerate}
+
+\section{Conclusions}
+This paper frames a testable program: the HIFT-Engine (numerical) followed by experimental tests. The central thesis—that the golden ratio can appear as a geometric quantization unit via Berry curvature arising from an $E_8$ projection—is falsifiable and numerically accessible.
+
+\end{document}
